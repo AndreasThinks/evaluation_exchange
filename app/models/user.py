@@ -9,6 +9,7 @@ class User(Document):
     is_evaluator = BooleanField(required=True)
     is_sponsor = BooleanField(required=True)
     is_admin = BooleanField(required=True, default=False)
+    user_orcid = StringField()
     org_id = StringField(required=True)
     specializations = ListField(StringField(max_length=100))
     created_at = DateTimeField(required=True, default=datetime.datetime.now)
