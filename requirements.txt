@@ -4,3 +4,4 @@ sqlalchemy
 pymongo
 mongoengine
 python-dotenv
+passlib
