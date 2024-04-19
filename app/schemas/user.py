@@ -1,4 +1,5 @@
-from pydantic import BaseModel, EmailStr, Field, List, UUID4
+from pydantic import BaseModel, EmailStr, Field, UUID4
+from typing import List
 
 class UserBase(BaseModel):
     email: EmailStr

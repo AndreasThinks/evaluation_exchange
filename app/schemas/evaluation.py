@@ -1,4 +1,5 @@
-from pydantic import BaseModel, UUID4, Field
+from pydantic import BaseModel
+from typing import UUID4, Field
 from datetime import datetime
 from typing import Optional
 

@@ -7,6 +7,6 @@ load_dotenv()  # Take environment variables from .env.
 
 app = FastAPI()
 
-global_init('evaluation_exchange')
+global_init()
 
 app.include_router(api_router)

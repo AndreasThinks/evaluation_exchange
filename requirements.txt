@@ -5,3 +5,4 @@ pymongo
 mongoengine
 python-dotenv
 passlib
+pydantic[email]
