@@ -6,11 +6,17 @@ A web application to enable evaluations and sponsors to find each other.
 Use to start the database.
 
 ```
-$ docker-compose up -d
+$ docker-compose up
+```
+
+Create your default admin user
+
+```
+$ make create-admin
 ```
 
 then start the app
 
 ```
-$ uvicorn app.main:app --reload
+$ make start-api
 ```

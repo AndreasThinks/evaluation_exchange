@@ -1,4 +1,5 @@
 from pydantic import BaseModel, UUID4
+from typing import Optional
 from datetime import datetime
 
 class MessageBase(BaseModel):
